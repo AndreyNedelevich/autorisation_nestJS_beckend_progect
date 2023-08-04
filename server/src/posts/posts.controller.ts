@@ -15,7 +15,7 @@ import { DeletePostDto } from './dto/delete-post.dto';
 import { GetPostsDto } from './dto/getPostsDto';
 import { JwtAuthGuard } from '../auth/jwt-auth.guard';
 
-@Controller('posts')
+@Controller('api/posts')
 export class PostsController {
   constructor(private postService: PostsService) {}
 

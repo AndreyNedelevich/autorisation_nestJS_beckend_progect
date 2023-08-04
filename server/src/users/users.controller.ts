@@ -21,7 +21,7 @@ import { BanUserDto } from './dto/ban-user.dto';
 import { Role } from 'src/roles/roles.model';
 
 @ApiTags('Users')
-@Controller('users')
+@Controller('api/users')
 export class UsersController {
   constructor(private usersService: UsersService) {}
   @ApiOperation({ summary: 'Create User' })
