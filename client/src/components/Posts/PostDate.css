@@ -1,0 +1,26 @@
+.post-date {
+    display: flex;
+    flex-direction: column;
+    width: 5.5rem;
+    height: 5.5rem;
+    border: 2.5px solid #0d0d0d;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.post-date__month {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.post-date__year {
+    font-size: 1rem;
+}
+
+.post-date__day {
+    font-size: 1.3rem;
+    font-weight: bold;
+}

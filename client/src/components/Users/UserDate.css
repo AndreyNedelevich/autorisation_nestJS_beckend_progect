@@ -1,0 +1,21 @@
+.user-date {
+    display: flex;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.user-date__month {
+    font-size: 1.2rem;
+}
+
+.user-date__year {
+    font-size: 1.2rem;
+}
+
+.user-date__day {
+    font-size: 1.2rem;
+}

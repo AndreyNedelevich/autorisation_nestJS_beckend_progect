@@ -1,0 +1,6 @@
+.Toastify__toast-container--top-center {
+    top: 7.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.2rem;
+}

@@ -1,0 +1,26 @@
+.posts-filter {
+    color: white;
+}
+
+.posts-filter__control {
+    color: black;
+    font-weight: 500;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 1rem 0;
+}
+
+.posts-filter__control input {
+    min-width: 47%;
+    margin: 0;
+}
+.posts-filter select {
+    font: inherit;
+    padding: 0.5rem 0.5rem;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 10px;
+    background: white;
+}

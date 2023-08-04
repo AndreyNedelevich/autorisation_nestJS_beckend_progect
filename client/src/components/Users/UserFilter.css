@@ -1,0 +1,33 @@
+
+
+.users-filter {
+    background-color: rgba(102, 161, 219, 0.4);
+    color: white;
+    padding: 0px 15px;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.users-filter__control {
+    color: black;
+    font-weight: 500;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 1rem 0;
+}
+
+.users-filter__control input {
+    min-width: 30%;
+    margin: 0;
+}
+.users-filter select {
+    font: inherit;
+    padding: 0.5rem 0.5rem;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 10px;
+    background: white;
+}

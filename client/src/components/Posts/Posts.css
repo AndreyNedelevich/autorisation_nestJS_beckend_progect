@@ -1,0 +1,8 @@
+.posts {
+    padding: 1rem;
+    background-color: rgba(102, 161, 219, 0.59);
+    margin: 1rem auto;
+    width: 70rem;
+    max-width: 95%;
+    border-radius: 10px;
+}
