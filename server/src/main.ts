@@ -26,6 +26,7 @@ async function start() {
   app.listen(PORT, () => console.log(`Server started on port = ${PORT}`));
 }
 
+
 start();
 
 // Команда docker-compose down используется для остановки и удаления контейнеров, созданных с помощью docker-compose up
