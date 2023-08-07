@@ -12,6 +12,10 @@ function App() {
             <Notification/>
             <NavBar/>
             <AppRouter/>
+            <div className="data_admin">
+                <div>administrator -admin@gmail.com</div>
+                <div>password -admin2023</div>
+            </div>
         </BrowserRouter>
     );
 }
